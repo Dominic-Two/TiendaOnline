@@ -67,7 +67,7 @@ if($_SESSION['login']){
 <body>
     <form action="" method="POST" class="form">
         <fieldset>
-            <legend>Registrate</legend>
+            <legend>Registro</legend>
             <?php foreach($errorres as $error): ?>
                 <div class="errores">
                     <?php echo $error ?>
