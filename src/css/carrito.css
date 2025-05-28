@@ -1,0 +1,54 @@
+.contCarrito{
+    position: fixed;
+    top: 0;
+    right: -40rem;
+    width: 40rem;
+    height: 100%;
+    background-color: var(--blanco1);
+    transition: right 0.25s ease;
+    padding: 1.5rem;
+    z-index: 1000;
+    box-shadow: -10px 0 10px -5px rgba(0, 0, 0, 0.1);
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.contCarrito:hover{
+    overflow-y: scroll;
+}
+
+.carritoProd {
+    position: relative;
+}
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3rem; 
+    height: 3rem; 
+    cursor: pointer; 
+}
+
+.carritoProd h2{
+    font-size: 2rem
+}
+
+.articulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .1rem solid var(--blanco4);
+    padding: 1rem;
+}
+.img-cart{
+    width: 12rem;
+}
+.btn-borrar{
+    color: var(--blanco1);
+    font-size: 1.5rem;
+    background-color: var(--morado2);
+    padding: .7rem;
+    border-radius: 50%;
+}
+.alertaCarrito{
+    background-color: var(--morado-munfrost);
+}

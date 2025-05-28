@@ -1,0 +1,25 @@
+{
+    "cSpell.language": "es,en",
+    "cSpell.words": [
+        "Compus",
+        "consulta",
+        "contenedor",
+        "corta",
+        "descripcion",
+        "imagen",
+        "Imagen",
+        "Inicio",
+        "nombre",
+        "obtener",
+        "producto",
+        "productos",
+        "Productos"
+    ],
+    "cSpell.ignorePaths": [
+        "**/node_modules/**",
+        "**/dist/**"
+    ],
+    "cSpell.enableFiletypes": [
+        "php"
+    ]
+}

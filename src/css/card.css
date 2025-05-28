@@ -1,0 +1,73 @@
+.productsCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 5rem;
+}
+.product {
+  width: 26rem;
+  background-color: var(--blanco1);
+  height: 45rem;
+  padding: 1rem;
+  overflow: hidden;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: .3s ease;
+}
+
+.product:hover{
+  transform: scale(1.07);
+}
+
+.product-img {
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.product-img img{
+  width: 24rem;
+  margin: 0 auto;
+}
+.info {
+  padding: .3rem;
+}
+.name {
+  font-size: 1.8rem;
+}
+.desc-product {
+  font-size: 1.5rem;
+}
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  font-size: 1.3rem;
+}
+.btn {
+  padding: 0.3rem 1rem;
+  color: var(--blanco1);
+  background-color: var(--morado-munfrost);
+  border-radius: .7rem;
+  border: 1px solid;
+  transition: .1s ease-in;
+}
+.btn-more {
+  background-color: var(--negro);
+  border: 1px solid;
+  transition: .1s ease-in;
+}
+
+.btn:hover {
+  color: var(--morado-munfrost);
+  background-color: var(--blanco1);
+  border: 1px solid var(--morado-munfrost);
+}
+.btn-more:hover {
+  background-color: var(--blanco1);
+  color: var(--negro);
+  border: 1px solid var(--negro);
+}

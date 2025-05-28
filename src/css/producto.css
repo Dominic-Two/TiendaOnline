@@ -1,0 +1,211 @@
+.productsCont {
+  max-width: 90rem;
+  background-color: var(--blanco1);
+  width: auto;
+  margin: 1.5rem auto;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.product-img {
+  margin-right: 2rem;
+}
+
+.product-img img {
+  width: 35rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35rem;
+  margin-left: 2rem;
+  padding: 1rem;
+}
+
+.name {
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+
+.desc-product {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.info-product ul span {
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.ul-datos {
+  padding: 1rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.btn {
+  padding: 0.3rem 1rem;
+  color: var(--blanco1);
+  background-color: var(--morado3);
+  border-radius: 1rem;
+  border: 1px solid;
+  transition: .3s ease;
+}
+
+.btn:hover {
+  color: var(--morado-munfrost);
+  background-color: var(--blanco1);
+  border: 1px solid var(--morado-munfrost);
+}
+
+
+.more-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 5rem;
+}
+
+.more-product {
+  width: 20rem;
+  background-color: var(--blanco1);
+  height: 35rem;
+  padding: 1rem;
+  margin: 2rem;
+  overflow: hidden;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4);
+  border-radius: .5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: .3s ease;
+}
+
+.more-product:hover {
+  transform: scale(1.07);
+}
+
+.more-product-img {
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.more-product-img img {
+  width: 24rem;
+  margin: 0 auto;
+}
+
+.more-info {
+  padding: .3rem;
+}
+
+.more-name {
+  font-size: 1.8rem;
+}
+
+.more-desc-product {
+  font-size: 1.5rem;
+}
+
+.more-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  font-size: 1.3rem;
+}
+
+.more-btn {
+  padding: 0.3rem 1rem;
+  color: var(--blanco1);
+  background-color: var(--morado-munfrost);
+  border-radius: .7rem;
+  border: 1px solid;
+  transition: .1s ease-in;
+}
+
+.more-btn-more {
+  background-color: var(--negro);
+  border: 1px solid;
+  transition: .1s ease-in;
+}
+
+.btn:hover {
+  color: var(--morado-munfrost);
+  background-color: var(--blanco1);
+  border: 1px solid var(--morado-munfrost);
+}
+
+.btn-more:hover {
+  background-color: var(--blanco1);
+  color: var(--negro);
+  border: 1px solid var(--negro);
+}
+
+.hr-divider {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--morado-munfrost), transparent);
+  margin: 2rem 0;
+  position: relative;
+}
+
+.hr-divider::before {
+  content: 'Producto similares';
+  font-size: 1.5rem;
+  color: var(--morado-munfrost);
+  position: absolute;
+  top: -0.75rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--blanco2);
+  padding: 0 0.5rem;
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 600px) {
+  .more-product {
+    flex-direction: row; /* Cambiar la dirección a fila para pantallas pequeñas */
+    width: 100%; /* Ancho completo para mejor ajuste en pantallas pequeñas */
+    height: auto; /* Ajustar la altura automáticamente */
+  }
+
+  .more-product-img, .more-info {
+    flex: 1; /* Permitir que ambos elementos tomen el mismo espacio */
+    margin: 0; /* Eliminar margen para que el contenido se ajuste mejor */
+  }
+
+  .more-product-img {
+    width: 30%; /* Ancho relativo para la imagen */
+    padding: 0; /* Eliminar padding para mejor ajuste */
+  }
+
+  .more-info {
+    width: 70%; /* Ancho relativo para la información */
+    padding: 1rem; /* Mantener el padding para la información */
+  }
+
+  .more-product-img img {
+    width: 100%; /* Ajustar el ancho de la imagen al contenedor */
+    height: auto; /* Mantener la relación de aspecto */
+  }
+
+  .more-buttons {
+    margin: 2rem;
+    justify-content: center; /* Centrar los botones si es necesario */
+  }
+}
