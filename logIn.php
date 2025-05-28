@@ -64,7 +64,7 @@ if($_SESSION['login']){
                 </div>
             <?php endforeach; ?>
 
-            <label for="email">E-mail:</label>
+            <label for="email">Correo:</label>
             <input type="email" placeholder="E-mail" name="email" id="email" required>
 
             <label for="password">Contraseña:</label>
