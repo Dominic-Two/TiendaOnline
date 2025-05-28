@@ -5,7 +5,7 @@
         </a>
 
         <form class="form" action="/Ecommerce/index.php" method="get">
-            <input type="text" placeholder="Buscar" name="prod" id="buscar" class="buscar">
+            <input type="text" placeholder="Buscar Producto" name="prod" id="buscar" class="buscar">
             <button type="submit" class="button-buscardor"><img class="img-buscar" src="./src/img/buscador.svg" alt="Buscador"></button>
         </form>
 

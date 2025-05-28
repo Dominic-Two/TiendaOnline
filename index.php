@@ -117,7 +117,7 @@
             <?php endwhile; ?>
         <?php else: ?>
             <div class="no-products">
-                <p>No se encontraron productos.</p>
+                <p>No se encontraron ningun producto.</p>
             </div>
         <?php endif; ?>
         

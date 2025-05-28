@@ -187,7 +187,7 @@ function summaryCart(){
         input1.classList.add('span-cantidad');
 
         const p3 = document.createElement('P');
-        p3.textContent = 'Total de Articulo: ';
+        p3.textContent = 'Sub Total: ';
         const span2 = document.createElement('SPAN');
         span2.textContent = formatterUSD.format(parseFloat(precio) * cantidad);
 
