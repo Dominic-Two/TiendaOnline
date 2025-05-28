@@ -57,7 +57,7 @@ if($connection){
                     <ul class="ul-datos">
                         <li>Categoria: <span><?php echo $producto['categoria'];?></span></li>
                         <li>Stock/Disponibles: <span><?php echo $producto['stock'];?></span></li>
-                        <li>Precio: <span class="precio"><?php echo $producto['precio'];?></span></li>
+                        <li>Costo: <span class="precio"><?php echo $producto['precio'];?></span></li>
                     </ul>
                 </div>
 
