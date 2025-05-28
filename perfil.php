@@ -70,7 +70,7 @@ if (isset($_POST['guardarDatos'])) {
             header("Location: " . $_SERVER['PHP_SELF']);
             exit;
         } else {
-            echo "Error en la actualización: " . mysqli_error($connection);
+            echo "Error en las actualizaciónes: " . mysqli_error($connection);
         }
     }
 }
