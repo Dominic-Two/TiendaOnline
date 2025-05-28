@@ -41,7 +41,7 @@ $auth = $_SESSION['login'] ?? false;
         </div>
         <div class="summary">
             <p>Total del carrito: <span id="total-carrito"></span></p>
-            <a href="#" class="pagar" id="a-pagar">Proceder al Pago</a>
+            <a href="#" class="pagar" id="a-pagar">Proceder al Pago del producto</a>
         </div>
     </section>
     
