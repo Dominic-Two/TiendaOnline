@@ -29,7 +29,7 @@
         <div class="footer-col">
           <h4>Ubicacion</h4>
           <ul>
-            <li><a href="#">Casa de lugin</a></li>
+            <li><a href="#">UTFV</a></li>
           </ul>
         </div>
         <div class="footer-col">
