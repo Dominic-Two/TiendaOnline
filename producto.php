@@ -56,8 +56,8 @@ if($connection){
                     <p class="desc-product"><?php echo $producto['descripcion_larga'];?></p>
                     <ul class="ul-datos">
                         <li>Categoria: <span><?php echo $producto['categoria'];?></span></li>
-                        <li>Stock: <span><?php echo $producto['stock'];?></span></li>
-                        <li>Precio: <span class="precio"><?php echo $producto['precio'];?></span></li>
+                        <li>Stock/Disponibles: <span><?php echo $producto['stock'];?></span></li>
+                        <li>Costo: <span class="precio"><?php echo $producto['precio'];?></span></li>
                     </ul>
                 </div>
 
