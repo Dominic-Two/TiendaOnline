@@ -7,6 +7,7 @@ const apellido = document.querySelector('.input-apellido');
 const correo = document.querySelector('.input-correo');
 const btn_guardar = document.querySelector('.input-guardar'); 
 
+
 nombre.addEventListener('keyup', tomarDatos);
 apellido.addEventListener('keyup', tomarDatos);
 correo.addEventListener('keyup', tomarDatos);
