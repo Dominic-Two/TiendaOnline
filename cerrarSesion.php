@@ -3,4 +3,5 @@
     $_SESSION = [];
 
     header('Location: /Ecommerce');
+    
 ?>
